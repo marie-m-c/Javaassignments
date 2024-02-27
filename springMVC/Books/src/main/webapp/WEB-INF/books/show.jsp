@@ -9,7 +9,7 @@ pageEncoding="ISO-8859-1"%> <%@ taglib prefix = "c" uri ="http://java.sun.com/js
   </head>
   <body>
    <div class="container w-50 border p-4 mx-auto mt-5">
-    <h1 class="display-4 mb-3 text-primary fw-bold"><c:out value="${book.getTitle()}" /></h1>
+    <h1 class="mb-4 text-primary fw-bold"><c:out value="${book.getTitle()}" /></h1>
         <p><strong>Description:</strong> <c:out value="${book.getDescription()}" /></p>
         <p><strong>Language:</strong> <c:out value="${book.getLanguage()}" /></p>
         <p><strong>Number of Pages:</strong> <c:out value="${book.getNumberOfPages()}" /></p>
